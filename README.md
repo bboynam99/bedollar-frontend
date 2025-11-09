@@ -2,7 +2,7 @@
 
 # Yield Stable Dollar Interface
 
-This is front-end repository of the [basis.cash](https://basis.cash/).
+This is front-end repository of the [basis.cash](https://bedollar-frontend.vercel.app/).
 
 ## 💻 Set Up Environment
 
