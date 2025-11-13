@@ -58,7 +58,7 @@ const Bank: React.FC = () => {
 
 const LPTokenHelpText: React.FC<{ bank: BankEntity }> = ({ bank }) => {
   let pairName: string;
-  let swapPrefix = 'https://app.unisave.exchange/#'
+  let swapPrefix = 'https://uniswap-ao3p.vercel.app/#'
   let uniswapUrl: string;
   const { Cash, Share } = Config.deployments;
   
