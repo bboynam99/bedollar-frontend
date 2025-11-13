@@ -47,7 +47,7 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
           <TokenSymbol symbol="BAB" />
           <StyledBalance>
             <StyledValue>{displayBabBalance}</StyledValue>
-            <Label text="YSB Available" />
+            <Label text="BSB Available" />
           </StyledBalance>
         </StyledBalanceWrapper>
       </Balances>

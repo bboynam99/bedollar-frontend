@@ -44,7 +44,7 @@ const Bank: React.FC = () => {
         {bank.depositTokenName.includes('LP') && <LPTokenHelpText bank={bank} />}
         <Spacer size="lg" />
         <div>
-          <Button onClick={onRedeem} text="Settle & Withdraw" />
+          <Button onClick={onRedeem} text="Havest & Withdraw" />
         </div>
         <Spacer size="lg" />
       </StyledBank>

@@ -38,7 +38,7 @@ const Harvest: React.FC<HarvestProps> = ({ bank }) => {
             <Label text={`Basis ${tokenName} Earned`} />
           </StyledCardHeader>
           <StyledCardActions>
-            <Button onClick={onReward} disabled={earnings.eq(0)} text="Settle"  />
+            <Button onClick={onReward} disabled={earnings.eq(0)} text="Havest"  />
           </StyledCardActions>
         </StyledCardContentInner>
       </CardContent>
