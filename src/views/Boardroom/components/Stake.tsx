@@ -80,7 +80,7 @@ const Stake: React.FC = () => {
               <Button
                 disabled={approveStatus !== ApprovalState.NOT_APPROVED}
                 onClick={approve}
-                text="Approve Basis Share"
+                text="Approve"
               />
             ) : isOldBoardroomMember ? (
               <>

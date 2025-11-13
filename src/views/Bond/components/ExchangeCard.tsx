@@ -86,7 +86,7 @@ const ExchangeCard: React.FC<ExchangeCardProps> = ({
                   approveStatus == ApprovalState.UNKNOWN
                 }
                 onClick={() => catchError(approve(), `Unable to approve ${fromTokenName}`)}
-                text={`Approve ${fromTokenName}`}
+                text={`Approve`}
               />
             ) : (
               <Button text={action} onClick={onPresent} disabled={disabled} />
